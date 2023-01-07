@@ -15,7 +15,7 @@ HYPS = [
     'id': 2,
     'title': 'leadership updates',
     'org_level': 'leadership',
-    'prod_fl_level': 'vision',
+    'prod_fl_level': 'Aligning with the vision',
     'Biz value': 'steer',
     'frequency': 'weekly'
   },
