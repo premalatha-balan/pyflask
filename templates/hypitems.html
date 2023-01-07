@@ -1,7 +1,12 @@
- <div style = 'margin-bottom:16px;'>
-  <h4 style='color:rgb(120,120, 120); margin-bottom:4px;'>{{hyp['title']}}</h4>
-  <div><b></b>Org_level:</b> {{hyp['org_level']}}</div>
-  {% if 'prod_fl_level' in hyp %}
-  <div><b></b>Prod_fl_level:</b> {{hyp['prod_fl_level']}}</div>
-  {% endif %}
+ <div class="border-bottom row" style = 'margin-bottom:16px; padding-bottom:8px;'>
+   <div class='col-9'>
+    <h4 style='color:rgb(120,120, 120); margin-bottom:4px;'>{{hyp['title']}}</h4>
+    <div><b></b>Org_level:</b> {{hyp['org_level']}}</div>
+    {% if 'prod_fl_level' in hyp %}
+    <div><b></b>Prod_fl_level:</b> {{hyp['prod_fl_level']}}</div>
+    {% endif %}
+ </div>
+   <div class='col-3';>
+     <button type="button" class="btn btn-outline-primary">Check it out</button>
+   </div>
   </div>
