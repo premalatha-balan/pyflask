@@ -32,7 +32,7 @@ HYPS = [
 
 @app.route("/")
 def hello_world():
-  return render_template('home.html', hyps=HYPS)
+  return render_template('home.html', hyps=HYPS, company_name='HypHub')
 
 
 @app.route("/api/hyps")
