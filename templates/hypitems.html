@@ -1,12 +1,15 @@
- <div class="border-bottom row" style = 'margin-bottom:16px; padding-bottom:8px;'>
+ <div class="border-bottom row" style='margin-bottom:16px; padding-bottom:8px;'>
    <div class='col-9'>
     <h4 style='color:rgb(120,120, 120); margin-bottom:4px;'>{{hyp['title']}}</h4>
-    <div><b></b>Org_level:</b> {{hyp['org_level']}}</div>
+    <div><b>Org_level:</b> {{hyp['org_level']}}</div>
     {% if 'prod_fl_level' in hyp %}
-    <div><b></b>Prod_fl_level:</b> {{hyp['prod_fl_level']}}</div>
+    <div><b>Prod_fl_level:</b> {{hyp['prod_fl_level']}}</div>
     {% endif %}
  </div>
-   <div class='col-3';>
-     <a href="mailto:premalatha.balan@gmail.com?subject=HypPopulate%20for%20{{hyp['title']}}&body=Assumption%3A%20If%20this(X)%20is%20done%2Fexists%2C%20this%20(Y)%20will%20happen.%0D%0A%0D%0AX%20%3D%20%3CXXXXXX%3E%0D%0AY%20%3D%20%3Cyyyyyyy%3E%0D%0A%0D%0A" type="button" class="btn btn-outline-primary">Check it out</a>
+      <div class='col-3'; margin-bottom: 10px;>
+     <button type="button" class="btn btn-outline-primary">Check it out</button>
+   <div class='col-6';>
+     <a href="mailto:premalatha.balan@gmail.com?subject=HypPopulate%20for%20{{hyp['title']}}&body=Assumption%3A%20If%20this(X)%20is%20done%2Fexists%2C%20this%20(Y)%20will%20happen.%0D%0A%0D%0AX%20%3D%20%3CXXXXXX%3E%0D%0AY%20%3D%20%3Cyyyyyyy%3E%0D%0A%0D%0A" type="button" class="btn btn-outline-primary">Add a similar hyp</a>
    </div>
+  </div>
   </div>
