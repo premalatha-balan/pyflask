@@ -22,9 +22,16 @@
   <img class="img-fluid" id = "banner" src="https://pyflask.premalathabalan.repl.co/static/banner.jpg"  >  
     <div class="container">
       <h1 class="text-center" mt-2 mb-4>{{comapny_name}} HypHub Hypotheses </h1>
+      <div class="row" style="margin-bottom:16px;">
+        <div class="col-md-6">
       <p class="lead">
         At Hyphub we share what hypothesis we are working on so that we learn the pattern to help us improve our understanding of what we are seeing on the ground
       </p>
+    </div>
+      <div class="d-none d-md-block col-md-6">
+      <img src="/static/people.jpg"  style="height:320px; border-radius:4px;">
+      </div>
+    </div>
       <h2 class="text-center" mt-2 mb-4 >Hypothesis in experimentation</h2>
 
       <div>
@@ -33,7 +40,7 @@
         {% endfor %}
       </div>
       <div class="text-center" > 
-      <button class="btn btn-primary btn-lg" >Contact Us</button>
+      <a class="btn btn-primary btn-lg" href="mailto:premalatha.balan@gmail.com?mailto:premalatha.balan@gmail.com?subject=Question%20about%20Hybub%20-%20%3Cxxxplease%20edit%20thisxxx%3E&body=My%20name%3A%0D%0AMy%20email%20id%3A%0D%0A%0D%0AI%20would%20like%20to%20know%20more%20about%20%3Cxxxplease%20edit%20thisxxx%3E%20on%20HypHub%0D%0A%0D%0AWhy%20I%20want%20this%20information%20-%20detail%3A%0D%0A%0D%0A">Contact Us</a>
       </div>
     </div>
     {% include 'footer.html' %}
